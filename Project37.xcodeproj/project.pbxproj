@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27B57EE41F44503E0012E561 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B57EE31F44503E0012E561 /* GradientView.swift */; };
 		27FEC8311F4386DE00A41C34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FEC8301F4386DE00A41C34 /* AppDelegate.swift */; };
 		27FEC8331F4386DE00A41C34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FEC8321F4386DE00A41C34 /* ViewController.swift */; };
 		27FEC8361F4386DE00A41C34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FEC8341F4386DE00A41C34 /* Main.storyboard */; };
@@ -67,6 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		27B57EE31F44503E0012E561 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		27FEC82D1F4386DE00A41C34 /* Project37.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project37.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FEC8301F4386DE00A41C34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27FEC8321F4386DE00A41C34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,11 +134,12 @@
 				27FEC8671F43872400A41C34 /* Content */,
 				27FEC8301F4386DE00A41C34 /* AppDelegate.swift */,
 				27FEC8321F4386DE00A41C34 /* ViewController.swift */,
+				27FEC86C1F438A2300A41C34 /* CardViewController.swift */,
+				27B57EE31F44503E0012E561 /* GradientView.swift */,
 				27FEC8341F4386DE00A41C34 /* Main.storyboard */,
 				27FEC8371F4386DE00A41C34 /* Assets.xcassets */,
 				27FEC8391F4386DE00A41C34 /* LaunchScreen.storyboard */,
 				27FEC83C1F4386DE00A41C34 /* Info.plist */,
-				27FEC86C1F438A2300A41C34 /* CardViewController.swift */,
 			);
 			path = Project37;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 			files = (
 				27FEC8331F4386DE00A41C34 /* ViewController.swift in Sources */,
 				27FEC8311F4386DE00A41C34 /* AppDelegate.swift in Sources */,
+				27B57EE41F44503E0012E561 /* GradientView.swift in Sources */,
 				27FEC86D1F438A2300A41C34 /* CardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,6 +581,7 @@
 				27FEC85E1F4386DE00A41C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27FEC8601F4386DE00A41C34 /* Build configuration list for PBXNativeTarget "Project37 WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +590,7 @@
 				27FEC8621F4386DE00A41C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27FEC8641F4386DE00A41C34 /* Build configuration list for PBXNativeTarget "Project37" */ = {
 			isa = XCConfigurationList;
@@ -593,6 +599,7 @@
 				27FEC8661F4386DE00A41C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
